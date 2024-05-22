@@ -1,0 +1,466 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/bruno/www/unemat/rva-2/RV
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50461
+Successfully changed project path to: /Users/bruno/www/unemat/rva-2/RV
+/Users/bruno/www/unemat/rva-2/RV
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8533789696] Host "[IP] 172.16.0.145 [Port] 0 [Flags] 2 [Guid] 745372753 [EditorId] 745372753 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Bruno.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8533789696] Host "[IP] 172.16.0.145 [Port] 0 [Flags] 2 [Guid] 745372753 [EditorId] 745372753 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Bruno.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 11.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bruno/www/unemat/rva-2/RV/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56606
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002691 seconds.
+- Loaded All Assemblies, in  0.280 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.160 seconds
+Domain Reload Profiling: 440ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (160ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.403 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.333 seconds
+Domain Reload Profiling: 736ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.25 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.9 KB). Loaded Objects now: 3577.
+Memory consumption went from 138.7 MB to 138.6 MB.
+Total: 2.272916 ms (FindLiveObjects: 0.095583 ms CreateObjectMapping: 0.036000 ms MarkObjects: 2.055709 ms  DeleteObjects: 0.085166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6480.635558 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/GtCommon/Light.mat
+  artifactKey: Guid(7bed9e81e37b1b44194eaf8d29b6ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/GtCommon/Light.mat using Guid(7bed9e81e37b1b44194eaf8d29b6ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c4f65c66e65cca5cf880666d9be8f8') in 0.147000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.395575 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Outter/GtTrim.mat
+  artifactKey: Guid(a8b9825619f9e1e42a50074861264959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Outter/GtTrim.mat using Guid(a8b9825619f9e1e42a50074861264959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42a675703a9e5eb96769d79974bfee6') in 0.027937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Outter/ShadowBox.mat
+  artifactKey: Guid(9f218f11dded0e147a09185d052e13b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Outter/ShadowBox.mat using Guid(9f218f11dded0e147a09185d052e13b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c7198b7bbe613c9dffc0717d4c5a6e') in 0.004538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.630522 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtFloorInnerTrim1st.mat
+  artifactKey: Guid(4967a96776e3ec647a0693f1fbc0495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtFloorInnerTrim1st.mat using Guid(4967a96776e3ec647a0693f1fbc0495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be7e02ca0fc21208b925842800945bd') in 0.019043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtStairDoor.mat
+  artifactKey: Guid(2cb310fdb47ba7d4489739e58b5dc5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtStairDoor.mat using Guid(2cb310fdb47ba7d4489739e58b5dc5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edcc3c377473648805c84e5a3471649') in 0.018269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtTheaterWooden.mat
+  artifactKey: Guid(dd300996081021147a7e5f21158bbb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtTheaterWooden.mat using Guid(dd300996081021147a7e5f21158bbb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8b5155e54b715850fbdcf7103d7bae') in 0.015884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtTheaterSide.mat
+  artifactKey: Guid(90571793a8cd604448c8f9de075c437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Materials/Inner/GtTheaterSide.mat using Guid(90571793a8cd604448c8f9de075c437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd68cd6df06d507f652baae6155c4b23') in 0.021340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.420256 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Meshes/GwangjuTheater_Interior.fbx
+  artifactKey: Guid(a5e2707c3ca237d48988de1246c46a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Meshes/GwangjuTheater_Interior.fbx using Guid(a5e2707c3ca237d48988de1246c46a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f543e962fa7eed7f5fe0104134a30435') in 0.500998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.370635 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Prefabs/GwangjuTheater_Interior.prefab
+  artifactKey: Guid(00b2ce0087fb322459fc35430532ed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Prefabs/GwangjuTheater_Interior.prefab using Guid(00b2ce0087fb322459fc35430532ed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb452ca0a6ae3ccf01675465ec38379') in 0.096890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 3.858698 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInner2nd_BaseMap.png
+  artifactKey: Guid(e8c7feae74e548d45a632bc8c105a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInner2nd_BaseMap.png using Guid(e8c7feae74e548d45a632bc8c105a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c0e9e7b1e0376a5a10d862a77e6ec7') in 0.047679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInnerTrim3rd_BaseMap.png
+  artifactKey: Guid(4321bed31e313f24ebf127cd287c4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInnerTrim3rd_BaseMap.png using Guid(4321bed31e313f24ebf127cd287c4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabe31a2561b06afe290a5afd37eb4e8') in 0.009502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001561 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtWhiteConc_BaseMap.png
+  artifactKey: Guid(324624cde92a8024db9ad666005e161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtWhiteConc_BaseMap.png using Guid(324624cde92a8024db9ad666005e161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd88b84d97f1865e5939cbe61adc0053') in 0.005502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInnerTrim1st_BaseMap.png
+  artifactKey: Guid(14c44aa576d4b9240860f2f395c85a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInnerTrim1st_BaseMap.png using Guid(14c44aa576d4b9240860f2f395c85a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6994588f2d7913bc8c46bcfce529e4e') in 0.007827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001449 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInner2nd_Normal.png
+  artifactKey: Guid(16d6daab3942b864080f43c796aa80a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInner2nd_Normal.png using Guid(16d6daab3942b864080f43c796aa80a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a0c0f879efdfffc82f6726014a517a') in 0.018487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtTheaterSide_Normal.png
+  artifactKey: Guid(8cdc20e08e065a541875f9378ebf74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtTheaterSide_Normal.png using Guid(8cdc20e08e065a541875f9378ebf74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f877703625ae32a35e195aa9a7da53') in 0.007221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtGreenTile_MaskMap.png
+  artifactKey: Guid(7a899c8b6c3207a47b4e5635bb0216c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtGreenTile_MaskMap.png using Guid(7a899c8b6c3207a47b4e5635bb0216c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb59d4c8c0baa4388fa5a4ef3a2910c') in 0.007789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtTheaterWooden_BaseMap.png
+  artifactKey: Guid(158afcb96a031cf47bdd13b3c47d4b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtTheaterWooden_BaseMap.png using Guid(158afcb96a031cf47bdd13b3c47d4b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb58b632f28647ca8a8ed16d6fbdaaa7') in 0.005939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtWhiteConc_Normal.png
+  artifactKey: Guid(2097c10c9103a5d49854552456544fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtWhiteConc_Normal.png using Guid(2097c10c9103a5d49854552456544fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc7c29cb69017f96b47d38af3d57b72') in 0.010742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInnerTrim3rd_Normal.png
+  artifactKey: Guid(bba79fc58f1e63c43aa75f85692b2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtFloorInnerTrim3rd_Normal.png using Guid(bba79fc58f1e63c43aa75f85692b2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b79f97e1e248b95dd231ddd71a0778e') in 0.007593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001684 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtTheaterSide_BaseMap.png
+  artifactKey: Guid(a655356d74a12fd4c8ccbe14cc102e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Inner/GtTheaterSide_BaseMap.png using Guid(a655356d74a12fd4c8ccbe14cc102e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c03d972d7d8095e4438a823ee31025') in 0.005642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.020104 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Outter/GtGround_BaseMap.png
+  artifactKey: Guid(f49d7791f12028c4e8e4cb64d297a3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Outter/GtGround_BaseMap.png using Guid(f49d7791f12028c4e8e4cb64d297a3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12f5e0b9a227a46a551f395f4a327ce') in 0.012213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Outter/GtGround_MaskMap.png
+  artifactKey: Guid(0fffa7694a5b66c4281e628766986d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Outter/GtGround_MaskMap.png using Guid(0fffa7694a5b66c4281e628766986d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1e8e2e7f281920aa0da385448973af') in 0.011864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Outter/GtTrim_MaskMap.png
+  artifactKey: Guid(f2c9919cfe847604a87c4d2ddf544cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/26_GwangjuTheater/Textures/Outter/GtTrim_MaskMap.png using Guid(f2c9919cfe847604a87c4d2ddf544cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bff4189143552a0066001a2ac3289ad') in 0.026728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.099253 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(7b1deacdea06e9a4481beedc54031b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-0_comp_shadowmask.png using Guid(7b1deacdea06e9a4481beedc54031b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6895706a025fdfef6145f59af509094') in 0.039781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-4_comp_dir.png
+  artifactKey: Guid(6a5978f72903682449fba1fcd24f58f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-4_comp_dir.png using Guid(6a5978f72903682449fba1fcd24f58f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd827fdc768bd05b98a1ca950c2716279') in 0.012563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-10.exr
+  artifactKey: Guid(f378ddd6f4b59bb48aae8c7da947f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-10.exr using Guid(f378ddd6f4b59bb48aae8c7da947f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08baa5640326a896bf12832552b91b4') in 0.037343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-4_comp_light.exr
+  artifactKey: Guid(e66541d5e6a25044da0a4c54e561e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-4_comp_light.exr using Guid(e66541d5e6a25044da0a4c54e561e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad6db3e5dae00a1e5249107e969591e') in 0.021990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-9.exr
+  artifactKey: Guid(af4b182c8a06fbc4a8785e910f4bef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-9.exr using Guid(af4b182c8a06fbc4a8785e910f4bef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4d3aae0dcd95884ab3ffb939b0e4e5') in 0.005916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-3.exr
+  artifactKey: Guid(b61d02ba4000ede4d879fbdffd3a8c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-3.exr using Guid(b61d02ba4000ede4d879fbdffd3a8c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1e7a9c84fa4c297dbfe4ce4c576d22') in 0.005922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(16848c80277d70d4d8c417cef9439cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-1_comp_shadowmask.png using Guid(16848c80277d70d4d8c417cef9439cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dc7d22764664d483e4b7f3d216c210') in 0.019699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-1_comp_dir.png
+  artifactKey: Guid(5bbd27a347772a54eb004f7c108b2e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-1_comp_dir.png using Guid(5bbd27a347772a54eb004f7c108b2e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e47fecd54d4fc8ecd9366794f2897c') in 0.018093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-3_comp_dir.png
+  artifactKey: Guid(f09ff80fe4eaaf74ebe5b6132f16996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-3_comp_dir.png using Guid(f09ff80fe4eaaf74ebe5b6132f16996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0002eea996f824bcee749da7dd3899') in 0.007938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-2_comp_dir.png
+  artifactKey: Guid(ff54100804370ce4591e6494f5457de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/Lightmap-2_comp_dir.png using Guid(ff54100804370ce4591e6494f5457de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9102cd286e3d4bdd8a35f994b033709e') in 0.009569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-5.exr
+  artifactKey: Guid(b60ee1c42dfb7854295b5144d1b1ce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes/26_GwangjuTheater_Inner/ReflectionProbe-5.exr using Guid(b60ee1c42dfb7854295b5144d1b1ce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7a92e99288520466a17d488dc1815f') in 0.004865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
